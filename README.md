@@ -3,38 +3,38 @@
 *************************************************************************************************************
 
 *************************************************************************************************************
-what is DEFAULT feature in SQL?
+what is DEFAULT feature in SQL?<br>
 Ans: default is used with insert or update statements . 
 	Ex: update emp set comm = default where comm is null
 *************************************************************************************************************
-How to update two columns?
+How to update two columns?<br>
 Ans: Using subqueries we can do this.
 	Ex:update emp10 set sal = (select sal from emp where job = 'PRESIDENT'), 
 						comm = (select max(comm) from emp);
 *************************************************************************************************************
-How to copy rows from another table?
+How to copy rows from another table?<br>
 Ans: insert into emp10 select * from emp where deptno = 10; 
 		Note:
 		To run the above command emp10 table should exist so execute the below command first.
 		
 		create table emp10 as select * from emp where 1=2; -- creates table without copying data by using the false condition.
 *************************************************************************************************************
-what are conversion functions ?
-Ans: There are two types of convertions .
-	i)Implicit conversion : varchar2 to Number or Date.
-	ii)Explicit conversion : varchar2 to Number or Date and vice versa.
-	Explicit conversion happens through to_number,to_char and to_date functions.
+what are conversion functions ?<br>
+Ans: There are two types of convertions .<br>
+	i)Implicit conversion : varchar2 to Number or Date.<br>
+	ii)Explicit conversion : varchar2 to Number or Date and vice versa.<br>
+	Explicit conversion happens through to_number,to_char and to_date functions.<br>
 	
-	Elements of the Date Format Model :
-	YYYY	Full year in numbers
-	YEAR	Year spelled out
-	MM		Two-digit value for month
-	MONTH	Full name of the month
-	MON		Three-letter abbreviation of the month
-	DY		Three-letter abbreviation of the day of the week
-	DAY		Full name of the day of the week
-	DD 		Numeric day of the month
-	Example:
+	Elements of the Date Format Model :<br>
+	YYYY	Full year in numbers<br>
+	YEAR	Year spelled out<br>
+	MM		Two-digit value for month<br>
+	MONTH	Full name of the month<br>
+	MON		Three-letter abbreviation of the month<br>
+	DY		Three-letter abbreviation of the day of the week<br>
+	DAY		Full name of the day of the week<br>
+	DD 		Numeric day of the month<br>
+	Example:<br>
 	Time elements format the time portion of the date.
 	• Add character strings by enclosing them in double quotation marks.
 	• Number suffixes spell out numbers.
