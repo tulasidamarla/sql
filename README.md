@@ -1,8 +1,6 @@
 # sql
 
 *************************************************************************************************************
-
-*************************************************************************************************************
 what is DEFAULT feature in SQL?<br>
 Ans: default is used with insert or update statements . 
 	Ex: update emp set comm = default where comm is null
