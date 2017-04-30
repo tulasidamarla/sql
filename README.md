@@ -958,3 +958,4 @@ Ans: If the cursor is operated using for loop then it is called as cursor for lo
 
 
 *********************************************************************************
+What is the difference between trigger and function?
