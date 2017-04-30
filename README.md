@@ -936,10 +936,11 @@ Example for Explicit cursor:
 
 *********************************************************************************
 --What is cursor for loop?
-Ans: If the cursor is operated using for loop then it is called as cursor for loop.
-	In this 4 steps are reduced to 2.
-	Just declaring the cursor is enough. All 3 steps opening,fetching and closing will be performed by loop itself.
-	Ex:
+Ans: If the cursor is operated using for loop then it is called as cursor for loop.<br>
+	In this 4 steps are reduced to 2.<br>
+	Just declaring the cursor is enough. All 3 steps opening,fetching and closing will be performed by loop itself.<br>
+	Ex:<br>
+	
 	Declare
 		cursor c1 is select * from emp;
 		exp number(5,3);
